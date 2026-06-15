@@ -9,7 +9,7 @@ A command-line tool that generates an `entry_list.ini` file for an Assetto Corsa
 ## Usage
 
 ```bash
-python generate_entry_list.py <cars_dir> [options]
+python entry_list_generator.py <cars_dir> [options]
 ```
 
 ### Arguments
@@ -32,27 +32,27 @@ python generate_entry_list.py <cars_dir> [options]
 
 **All cars, alphabetical order:**
 ```bash
-python generate_entry_list.py ~/assettocorsa/content/cars/
+python entry_list_generator.py ~/assettocorsa/content/cars/
 ```
 
 **Limit to 20 cars, save to server folder:**
 ```bash
-python generate_entry_list.py ~/assettocorsa/content/cars/ -l 20 -o ~/ac_server/cfg/entry_list.ini
+python entry_list_generator.py ~/assettocorsa/content/cars/ -l 20 -o ~/ac_server/cfg/entry_list.ini
 ```
 
 **Random selection of 30 cars with random skins:**
 ```bash
-python generate_entry_list.py ~/assettocorsa/content/cars/ -l 30 -rc -rs
+python entry_list_generator.py ~/assettocorsa/content/cars/ -l 30 -rc -rs
 ```
 
 **Overwrite an existing entry list:**
 ```bash
-python generate_entry_list.py ~/assettocorsa/content/cars/ -f
+python entry_list_generator.py ~/assettocorsa/content/cars/ -f
 ```
 
 **Windows:**
 ```bash
-python generate_entry_list.py "C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\content\cars"
+python entry_list_generator.py "C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\content\cars"
 ```
 
 ## Output format
